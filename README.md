@@ -8,6 +8,7 @@ The system automatically processes uploaded text files in real time and stores t
 This project demonstrates my practical experience with **AWS serverless architecture, IAM security, S3 event triggers, and Amazon Polly integration**.
 
 ---
+![AWS Architecture](https://example.com/aws-architecture.png)
 
 ## 🎯 Problem Statement
 
@@ -15,7 +16,72 @@ Reading long blogs, articles, or documents is not always convenient, and written
 I built this solution to **automatically transform written content into audio**, improving accessibility, usability, and content reach.
 
 ---
+## ✅ Proof of Work
 
+This section provides evidence that the **Real-Time Text-to-Audio Converter Pipeline** was fully implemented, tested, and validated by me.
+
+---
+
+### 📂 S3 Source Bucket (Input)
+
+- Uploaded `.txt` files to the source S3 bucket
+- Configured S3 event notifications to trigger AWS Lambda automatically
+
+![AWS Architecture](https://example.com/aws-architecture.png)
+
+---
+
+### ⚙️ AWS Lambda Execution
+
+- Lambda function triggered automatically on `.txt` file upload
+- Function successfully read input text from S3
+- Invoked Amazon Polly using the Neural engine
+- Generated audio output without manual intervention
+
+![AWS Architecture](https://example.com/aws-architecture.png)
+
+---
+
+### 🔊 Amazon Polly Text-to-Speech Conversion
+
+- Converted text content into natural-sounding speech
+- Used `Joanna` voice with Neural TTS engine
+- Generated `.mp3` audio format
+
+![AWS Architecture](https://example.com/aws-architecture.png)
+
+---
+### IAM Role
+![AWS Architecture](https://example.com/aws-architecture.png)
+
+### 📥 S3 Destination Bucket (Output)
+
+- Successfully stored generated `.mp3` files in destination bucket
+- Verified correct file naming and audio playback
+
+![AWS Architecture](https://example.com/aws-architecture.png)
+
+---
+
+### 🧪 End-to-End Validation
+
+- Verified the complete flow:
+  - Text upload → Lambda trigger → Polly synthesis → Audio output
+- Tested with multiple text files to ensure consistency
+
+![AWS Architecture](https://example.com/aws-architecture.png)
+
+---
+
+### 🏁 Final Status
+
+✔️ All components deployed successfully  
+✔️ Event-driven pipeline working as expected  
+✔️ Audio output validated  
+
+This confirms the successful implementation of the project.
+
+---
 ## 🧩 Solution Overview
 
 Whenever I upload a `.txt` file to an S3 source bucket, the system:
