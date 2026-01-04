@@ -8,7 +8,7 @@ The system automatically processes uploaded text files in real time and stores t
 This project demonstrates my practical experience with **AWS serverless architecture, IAM security, S3 event triggers, and Amazon Polly integration**.
 
 ---
-![AWS Architecture](https://example.com/aws-architecture.png)
+![AWS Architecture](https://github.com/Naveen15github/Real-Time-Text-to-Audio-Converter-Pipeline-Using-Amazon-Polly/blob/19b0c0df42cfaf66f0f26d423efe9a4b0cc14fd1/Gemini_Generated_Image_buycuhbuycuhbuyc.png)
 
 ## 🎯 Problem Statement
 
@@ -27,7 +27,7 @@ This section provides evidence that the **Real-Time Text-to-Audio Converter Pipe
 - Uploaded `.txt` files to the source S3 bucket
 - Configured S3 event notifications to trigger AWS Lambda automatically
 
-![AWS Architecture](https://example.com/aws-architecture.png)
+![AWS Architecture](https://github.com/Naveen15github/Real-Time-Text-to-Audio-Converter-Pipeline-Using-Amazon-Polly/blob/19b0c0df42cfaf66f0f26d423efe9a4b0cc14fd1/Screenshot%20(333).png)
 
 ---
 
@@ -38,7 +38,7 @@ This section provides evidence that the **Real-Time Text-to-Audio Converter Pipe
 - Invoked Amazon Polly using the Neural engine
 - Generated audio output without manual intervention
 
-![AWS Architecture](https://example.com/aws-architecture.png)
+![AWS Architecture](https://github.com/Naveen15github/Real-Time-Text-to-Audio-Converter-Pipeline-Using-Amazon-Polly/blob/19b0c0df42cfaf66f0f26d423efe9a4b0cc14fd1/Screenshot%20(335).png)
 
 ---
 
@@ -48,18 +48,18 @@ This section provides evidence that the **Real-Time Text-to-Audio Converter Pipe
 - Used `Joanna` voice with Neural TTS engine
 - Generated `.mp3` audio format
 
-![AWS Architecture](https://example.com/aws-architecture.png)
+![AWS Architecture](https://github.com/Naveen15github/Real-Time-Text-to-Audio-Converter-Pipeline-Using-Amazon-Polly/blob/19b0c0df42cfaf66f0f26d423efe9a4b0cc14fd1/Screenshot%20(331).png)
 
 ---
 ### IAM Role
-![AWS Architecture](https://example.com/aws-architecture.png)
+![AWS Architecture](https://github.com/Naveen15github/Real-Time-Text-to-Audio-Converter-Pipeline-Using-Amazon-Polly/blob/19b0c0df42cfaf66f0f26d423efe9a4b0cc14fd1/Screenshot%20(332).png)
 
 ### 📥 S3 Destination Bucket (Output)
 
 - Successfully stored generated `.mp3` files in destination bucket
 - Verified correct file naming and audio playback
 
-![AWS Architecture](https://example.com/aws-architecture.png)
+![AWS Architecture](https://github.com/Naveen15github/Real-Time-Text-to-Audio-Converter-Pipeline-Using-Amazon-Polly/blob/19b0c0df42cfaf66f0f26d423efe9a4b0cc14fd1/Screenshot%20(334).png)
 
 ---
 
@@ -69,7 +69,7 @@ This section provides evidence that the **Real-Time Text-to-Audio Converter Pipe
   - Text upload → Lambda trigger → Polly synthesis → Audio output
 - Tested with multiple text files to ensure consistency
 
-![AWS Architecture](https://example.com/aws-architecture.png)
+![AWS Architecture](https://github.com/Naveen15github/Real-Time-Text-to-Audio-Converter-Pipeline-Using-Amazon-Polly/blob/19b0c0df42cfaf66f0f26d423efe9a4b0cc14fd1/Screenshot%20(336).png)
 
 ---
 
